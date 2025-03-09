@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A4B3F645E9D48729427D626 /* InterDisplay-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4038DD1510FD424CB8F64E5F /* InterDisplay-Bold.ttf */; };
+		0C80B921A6F3F58F76C31292 /* libPods-SocialMediaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SocialMediaApp.a */; };
+		121E4E4E9606454095B0E1BD /* Inter-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF5550EAD4347049C9224A1 /* Inter-ThinItalic.ttf */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		20786F5E7A894709AD2E6F91 /* InterDisplay-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 340D39FBC52B4AB4BEBFBA37 /* InterDisplay-Black.ttf */; };
+		20AE3D0BE5734EF19A2E1C14 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9ABC4686B9F4EA5AA80DF73 /* Inter-Black.ttf */; };
+		29DF6EC5329541048B138375 /* InterDisplay-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53C2069CC14E4FC2A83297B5 /* InterDisplay-Italic.ttf */; };
+		2D810DAAA70447A38E054B90 /* InterDisplay-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 090078A3496F40939002340E /* InterDisplay-ThinItalic.ttf */; };
+		30A1B1C0CC75444F813D2968 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48521A2054A34ED0A8FA8542 /* Inter-Regular.ttf */; };
+		41FF1BA57D45426591641E32 /* InterDisplay-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5710BDC837940B194F9F2D2 /* InterDisplay-ExtraBold.ttf */; };
+		52CFD38495A74A6783A00F2B /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BCB64F99FF024231A5F255AC /* Inter-Light.ttf */; };
+		53603CEF16A84DE092F90BEF /* InterDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 994220FAA5364CFDBECA2A10 /* InterDisplay-SemiBold.ttf */; };
+		58261D6339CB4281BA341937 /* InterDisplay-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C3B3A83C7E0495DA304D32E /* InterDisplay-Light.ttf */; };
+		6516AEAA02F842E7B392F1FB /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 223281E3B1A247EBA3E54C75 /* Inter-Thin.ttf */; };
+		658434803D994198B0C2055B /* InterDisplay-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 714A43B39C2C4B548DAE5124 /* InterDisplay-ExtraLightItalic.ttf */; };
+		689DCDD88BBB4698822C667C /* Inter-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F302C664E4294CB19F98AD52 /* Inter-BlackItalic.ttf */; };
+		6A9E890CB14E4B59B128ED29 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0019FEAEE67A46B494B135FF /* Inter-SemiBold.ttf */; };
+		6D57A1C4F406449A8CF07C10 /* Inter-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31F9F519A2E64C648A7C9256 /* Inter-ExtraBoldItalic.ttf */; };
+		725E3709D2464841BC3A26EA /* InterDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 491610571AEF490AA4ED9E2B /* InterDisplay-Regular.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7BCAD7DE9F13425B971B0F0F /* InterDisplay-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEA59DF6290849E1B30DD62A /* InterDisplay-ExtraBoldItalic.ttf */; };
+		7E6CC231E234453381D9EE6C /* InterDisplay-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C94A0FB33254A92BC14134E /* InterDisplay-MediumItalic.ttf */; };
+		7F5C8886D16643CD93DC9EA6 /* Inter-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E3D2D959D1B4C9DA3FE64EF /* Inter-SemiBoldItalic.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		829663F22A234F97BF7379B3 /* InterDisplay-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83B4D73C127548C9B3FFEA13 /* InterDisplay-SemiBoldItalic.ttf */; };
+		84D09D1F75E34A42A734C06B /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 885AA43B9F1E49BB80DBA66E /* Inter-ExtraLight.ttf */; };
+		879E970833BB44D3B8E5B4D4 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7E2FBF0E3324D33BA9CC25B /* Inter-Bold.ttf */; };
+		87E5B7858F2D426DA3CB8CD6 /* InterDisplay-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B20B53DD80B24855B8B74CD9 /* InterDisplay-Thin.ttf */; };
+		8F448600219D4511BD95239D /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 239CD8FB3DFB4B97845F80D8 /* Inter-Medium.ttf */; };
+		9CED071DBE9E4EC2B13D4E7F /* Inter-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A26629A19B554A3EAD20F190 /* Inter-MediumItalic.ttf */; };
+		A6BBC8EBE18E4054935AAADE /* Inter-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3192E1A67F604D8DA1108F26 /* Inter-Italic.ttf */; };
+		B0AEFBFF73BB44E796313092 /* InterDisplay-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA6E726D82734775922FA929 /* InterDisplay-LightItalic.ttf */; };
+		CA1F36335C889CBDC0C56126 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		D38F938540B0493C83413FB9 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CB8CD816F6704662A844DD6F /* Inter-ExtraBold.ttf */; };
+		D4CDEEA40B2D4C1C8EF66E92 /* InterDisplay-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B51F57E52EEC4BD189ABF3DD /* InterDisplay-BoldItalic.ttf */; };
+		D56E359B8E404BABB6B04C6B /* Inter-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDC7A9253E414CB5AA557340 /* Inter-LightItalic.ttf */; };
+		DBB1DA84EF944AA9AB9E55BD /* Inter-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED47AAAA177342418BE7913D /* Inter-BoldItalic.ttf */; };
+		ED8AE6280C5D4F36BBAA2A0A /* InterDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F89968EC9DB45BFB6D7F5E4 /* InterDisplay-Medium.ttf */; };
+		F0444D1EB9CA4757BD5B7420 /* InterDisplay-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2ED48E66B5984EF98BDB93A4 /* InterDisplay-ExtraLight.ttf */; };
+		F526240EDF6044BBA7B00F53 /* Inter-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4644193F840F4E4CA969D27E /* Inter-ExtraLightItalic.ttf */; };
+		F671246AB4BE4F2A8BCBE41D /* InterDisplay-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC27AD9F9490442593ACD154 /* InterDisplay-BlackItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0019FEAEE67A46B494B135FF /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBold.ttf"; path = "../assets/fonts/Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		090078A3496F40939002340E /* InterDisplay-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-ThinItalic.ttf"; path = "../assets/fonts/InterDisplay-ThinItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SocialMediaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialMediaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SocialMediaApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SocialMediaApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = SocialMediaApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		223281E3B1A247EBA3E54C75 /* Inter-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Thin.ttf"; path = "../assets/fonts/Inter-Thin.ttf"; sourceTree = "<group>"; };
+		239CD8FB3DFB4B97845F80D8 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
+		2DF5550EAD4347049C9224A1 /* Inter-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ThinItalic.ttf"; path = "../assets/fonts/Inter-ThinItalic.ttf"; sourceTree = "<group>"; };
+		2E3D2D959D1B4C9DA3FE64EF /* Inter-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-SemiBoldItalic.ttf"; path = "../assets/fonts/Inter-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		2ED48E66B5984EF98BDB93A4 /* InterDisplay-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-ExtraLight.ttf"; path = "../assets/fonts/InterDisplay-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3192E1A67F604D8DA1108F26 /* Inter-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Italic.ttf"; path = "../assets/fonts/Inter-Italic.ttf"; sourceTree = "<group>"; };
+		31F9F519A2E64C648A7C9256 /* Inter-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBoldItalic.ttf"; path = "../assets/fonts/Inter-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		340D39FBC52B4AB4BEBFBA37 /* InterDisplay-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-Black.ttf"; path = "../assets/fonts/InterDisplay-Black.ttf"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-SocialMediaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaApp.debug.xcconfig"; path = "Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4038DD1510FD424CB8F64E5F /* InterDisplay-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-Bold.ttf"; path = "../assets/fonts/InterDisplay-Bold.ttf"; sourceTree = "<group>"; };
+		4644193F840F4E4CA969D27E /* Inter-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLightItalic.ttf"; path = "../assets/fonts/Inter-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		48521A2054A34ED0A8FA8542 /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
+		491610571AEF490AA4ED9E2B /* InterDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-Regular.ttf"; path = "../assets/fonts/InterDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		4C94A0FB33254A92BC14134E /* InterDisplay-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-MediumItalic.ttf"; path = "../assets/fonts/InterDisplay-MediumItalic.ttf"; sourceTree = "<group>"; };
+		53C2069CC14E4FC2A83297B5 /* InterDisplay-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-Italic.ttf"; path = "../assets/fonts/InterDisplay-Italic.ttf"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-SocialMediaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialMediaApp.release.xcconfig"; path = "Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp.release.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-SocialMediaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocialMediaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3B3A83C7E0495DA304D32E /* InterDisplay-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-Light.ttf"; path = "../assets/fonts/InterDisplay-Light.ttf"; sourceTree = "<group>"; };
+		6F89968EC9DB45BFB6D7F5E4 /* InterDisplay-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-Medium.ttf"; path = "../assets/fonts/InterDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		714A43B39C2C4B548DAE5124 /* InterDisplay-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-ExtraLightItalic.ttf"; path = "../assets/fonts/InterDisplay-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = SocialMediaApp/AppDelegate.swift; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SocialMediaApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83B4D73C127548C9B3FFEA13 /* InterDisplay-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-SemiBoldItalic.ttf"; path = "../assets/fonts/InterDisplay-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		885AA43B9F1E49BB80DBA66E /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraLight.ttf"; path = "../assets/fonts/Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		994220FAA5364CFDBECA2A10 /* InterDisplay-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-SemiBold.ttf"; path = "../assets/fonts/InterDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		A26629A19B554A3EAD20F190 /* Inter-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-MediumItalic.ttf"; path = "../assets/fonts/Inter-MediumItalic.ttf"; sourceTree = "<group>"; };
+		A5710BDC837940B194F9F2D2 /* InterDisplay-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-ExtraBold.ttf"; path = "../assets/fonts/InterDisplay-ExtraBold.ttf"; sourceTree = "<group>"; };
+		AEA59DF6290849E1B30DD62A /* InterDisplay-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-ExtraBoldItalic.ttf"; path = "../assets/fonts/InterDisplay-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		B20B53DD80B24855B8B74CD9 /* InterDisplay-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-Thin.ttf"; path = "../assets/fonts/InterDisplay-Thin.ttf"; sourceTree = "<group>"; };
+		B51F57E52EEC4BD189ABF3DD /* InterDisplay-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-BoldItalic.ttf"; path = "../assets/fonts/InterDisplay-BoldItalic.ttf"; sourceTree = "<group>"; };
+		BCB64F99FF024231A5F255AC /* Inter-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Light.ttf"; path = "../assets/fonts/Inter-Light.ttf"; sourceTree = "<group>"; };
+		CA6E726D82734775922FA929 /* InterDisplay-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-LightItalic.ttf"; path = "../assets/fonts/InterDisplay-LightItalic.ttf"; sourceTree = "<group>"; };
+		CB8CD816F6704662A844DD6F /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-ExtraBold.ttf"; path = "../assets/fonts/Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E7E2FBF0E3324D33BA9CC25B /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
+		EC27AD9F9490442593ACD154 /* InterDisplay-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "InterDisplay-BlackItalic.ttf"; path = "../assets/fonts/InterDisplay-BlackItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED47AAAA177342418BE7913D /* Inter-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-BoldItalic.ttf"; path = "../assets/fonts/Inter-BoldItalic.ttf"; sourceTree = "<group>"; };
+		F302C664E4294CB19F98AD52 /* Inter-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-BlackItalic.ttf"; path = "../assets/fonts/Inter-BlackItalic.ttf"; sourceTree = "<group>"; };
+		F9ABC4686B9F4EA5AA80DF73 /* Inter-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Black.ttf"; path = "../assets/fonts/Inter-Black.ttf"; sourceTree = "<group>"; };
+		FDC7A9253E414CB5AA557340 /* Inter-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-LightItalic.ttf"; path = "../assets/fonts/Inter-LightItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80B921A6F3F58F76C31292 /* libPods-SocialMediaApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* SocialMediaApp */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = SocialMediaApp;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-SocialMediaApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37B38DF7BBC04166A2AD3C6A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9ABC4686B9F4EA5AA80DF73 /* Inter-Black.ttf */,
+				F302C664E4294CB19F98AD52 /* Inter-BlackItalic.ttf */,
+				E7E2FBF0E3324D33BA9CC25B /* Inter-Bold.ttf */,
+				ED47AAAA177342418BE7913D /* Inter-BoldItalic.ttf */,
+				CB8CD816F6704662A844DD6F /* Inter-ExtraBold.ttf */,
+				31F9F519A2E64C648A7C9256 /* Inter-ExtraBoldItalic.ttf */,
+				885AA43B9F1E49BB80DBA66E /* Inter-ExtraLight.ttf */,
+				4644193F840F4E4CA969D27E /* Inter-ExtraLightItalic.ttf */,
+				3192E1A67F604D8DA1108F26 /* Inter-Italic.ttf */,
+				BCB64F99FF024231A5F255AC /* Inter-Light.ttf */,
+				FDC7A9253E414CB5AA557340 /* Inter-LightItalic.ttf */,
+				239CD8FB3DFB4B97845F80D8 /* Inter-Medium.ttf */,
+				A26629A19B554A3EAD20F190 /* Inter-MediumItalic.ttf */,
+				48521A2054A34ED0A8FA8542 /* Inter-Regular.ttf */,
+				0019FEAEE67A46B494B135FF /* Inter-SemiBold.ttf */,
+				2E3D2D959D1B4C9DA3FE64EF /* Inter-SemiBoldItalic.ttf */,
+				223281E3B1A247EBA3E54C75 /* Inter-Thin.ttf */,
+				2DF5550EAD4347049C9224A1 /* Inter-ThinItalic.ttf */,
+				340D39FBC52B4AB4BEBFBA37 /* InterDisplay-Black.ttf */,
+				EC27AD9F9490442593ACD154 /* InterDisplay-BlackItalic.ttf */,
+				4038DD1510FD424CB8F64E5F /* InterDisplay-Bold.ttf */,
+				B51F57E52EEC4BD189ABF3DD /* InterDisplay-BoldItalic.ttf */,
+				A5710BDC837940B194F9F2D2 /* InterDisplay-ExtraBold.ttf */,
+				AEA59DF6290849E1B30DD62A /* InterDisplay-ExtraBoldItalic.ttf */,
+				2ED48E66B5984EF98BDB93A4 /* InterDisplay-ExtraLight.ttf */,
+				714A43B39C2C4B548DAE5124 /* InterDisplay-ExtraLightItalic.ttf */,
+				53C2069CC14E4FC2A83297B5 /* InterDisplay-Italic.ttf */,
+				6C3B3A83C7E0495DA304D32E /* InterDisplay-Light.ttf */,
+				CA6E726D82734775922FA929 /* InterDisplay-LightItalic.ttf */,
+				6F89968EC9DB45BFB6D7F5E4 /* InterDisplay-Medium.ttf */,
+				4C94A0FB33254A92BC14134E /* InterDisplay-MediumItalic.ttf */,
+				491610571AEF490AA4ED9E2B /* InterDisplay-Regular.ttf */,
+				994220FAA5364CFDBECA2A10 /* InterDisplay-SemiBold.ttf */,
+				83B4D73C127548C9B3FFEA13 /* InterDisplay-SemiBoldItalic.ttf */,
+				B20B53DD80B24855B8B74CD9 /* InterDisplay-Thin.ttf */,
+				090078A3496F40939002340E /* InterDisplay-ThinItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* SocialMediaApp */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				37B38DF7BBC04166A2AD3C6A /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* SocialMediaApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-SocialMediaApp.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-SocialMediaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* SocialMediaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SocialMediaApp" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialMediaApp;
+			productName = SocialMediaApp;
+			productReference = 13B07F961A680F5B00A75B9A /* SocialMediaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SocialMediaApp" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* SocialMediaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				CA1F36335C889CBDC0C56126 /* PrivacyInfo.xcprivacy in Resources */,
+				20AE3D0BE5734EF19A2E1C14 /* Inter-Black.ttf in Resources */,
+				689DCDD88BBB4698822C667C /* Inter-BlackItalic.ttf in Resources */,
+				879E970833BB44D3B8E5B4D4 /* Inter-Bold.ttf in Resources */,
+				DBB1DA84EF944AA9AB9E55BD /* Inter-BoldItalic.ttf in Resources */,
+				D38F938540B0493C83413FB9 /* Inter-ExtraBold.ttf in Resources */,
+				6D57A1C4F406449A8CF07C10 /* Inter-ExtraBoldItalic.ttf in Resources */,
+				84D09D1F75E34A42A734C06B /* Inter-ExtraLight.ttf in Resources */,
+				F526240EDF6044BBA7B00F53 /* Inter-ExtraLightItalic.ttf in Resources */,
+				A6BBC8EBE18E4054935AAADE /* Inter-Italic.ttf in Resources */,
+				52CFD38495A74A6783A00F2B /* Inter-Light.ttf in Resources */,
+				D56E359B8E404BABB6B04C6B /* Inter-LightItalic.ttf in Resources */,
+				8F448600219D4511BD95239D /* Inter-Medium.ttf in Resources */,
+				9CED071DBE9E4EC2B13D4E7F /* Inter-MediumItalic.ttf in Resources */,
+				30A1B1C0CC75444F813D2968 /* Inter-Regular.ttf in Resources */,
+				6A9E890CB14E4B59B128ED29 /* Inter-SemiBold.ttf in Resources */,
+				7F5C8886D16643CD93DC9EA6 /* Inter-SemiBoldItalic.ttf in Resources */,
+				6516AEAA02F842E7B392F1FB /* Inter-Thin.ttf in Resources */,
+				121E4E4E9606454095B0E1BD /* Inter-ThinItalic.ttf in Resources */,
+				20786F5E7A894709AD2E6F91 /* InterDisplay-Black.ttf in Resources */,
+				F671246AB4BE4F2A8BCBE41D /* InterDisplay-BlackItalic.ttf in Resources */,
+				0A4B3F645E9D48729427D626 /* InterDisplay-Bold.ttf in Resources */,
+				D4CDEEA40B2D4C1C8EF66E92 /* InterDisplay-BoldItalic.ttf in Resources */,
+				41FF1BA57D45426591641E32 /* InterDisplay-ExtraBold.ttf in Resources */,
+				7BCAD7DE9F13425B971B0F0F /* InterDisplay-ExtraBoldItalic.ttf in Resources */,
+				F0444D1EB9CA4757BD5B7420 /* InterDisplay-ExtraLight.ttf in Resources */,
+				658434803D994198B0C2055B /* InterDisplay-ExtraLightItalic.ttf in Resources */,
+				29DF6EC5329541048B138375 /* InterDisplay-Italic.ttf in Resources */,
+				58261D6339CB4281BA341937 /* InterDisplay-Light.ttf in Resources */,
+				B0AEFBFF73BB44E796313092 /* InterDisplay-LightItalic.ttf in Resources */,
+				ED8AE6280C5D4F36BBAA2A0A /* InterDisplay-Medium.ttf in Resources */,
+				7E6CC231E234453381D9EE6C /* InterDisplay-MediumItalic.ttf in Resources */,
+				725E3709D2464841BC3A26EA /* InterDisplay-Regular.ttf in Resources */,
+				53603CEF16A84DE092F90BEF /* InterDisplay-SemiBold.ttf in Resources */,
+				829663F22A234F97BF7379B3 /* InterDisplay-SemiBoldItalic.ttf in Resources */,
+				87E5B7858F2D426DA3CB8CD6 /* InterDisplay-Thin.ttf in Resources */,
+				2D810DAAA70447A38E054B90 /* InterDisplay-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialMediaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialMediaApp/Pods-SocialMediaApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-SocialMediaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SocialMediaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SocialMediaApp;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-SocialMediaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = SocialMediaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = SocialMediaApp;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SocialMediaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SocialMediaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
