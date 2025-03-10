@@ -1,7 +1,8 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {
   FlatList,
   SafeAreaView,
+  StatusBar,
   Text,
   TouchableOpacity,
   View,
@@ -12,6 +13,7 @@ import {faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import globalStyle from './assets/styles/globalStyle';
 import UserStory from './components/UserStory/UserStory';
 import UserPost from './components/UserPost/UserPost';
+import {scaleFontSize} from './assets/styles/scaling';
 
 const App = () => {
   const userStories = [
@@ -120,16 +122,14 @@ const App = () => {
   ];
 
   const userStoriesPageSize = 4;
-  const [userStoriesCurrentPage, setUserStoriesCurrentPage] = React.useState(1);
-  const [userStoriesRenderedData, setUserStoriesRenderedData] = React.useState(
-    [],
-  );
-  const [isLoadingUserStories, setIsLoadingUserStories] = React.useState(false);
+  const [userStoriesCurrentPage, setUserStoriesCurrentPage] = useState(1);
+  const [userStoriesRenderedData, setUserStoriesRenderedData] = useState([]);
+  const [isLoadingUserStories, setIsLoadingUserStories] = useState(false);
 
   const userPostsPageSize = 2;
-  const [userPostsCurrentPage, setUserPostsCurrentPage] = React.useState(1);
-  const [userPostsRenderedData, setUserPostsRenderedData] = React.useState([]);
-  const [isLoadingUserPosts, setIsLoadingUserPosts] = React.useState(false);
+  const [userPostsCurrentPage, setUserPostsCurrentPage] = useState(1);
+  const [userPostsRenderedData, setUserPostsRenderedData] = useState([]);
+  const [isLoadingUserPosts, setIsLoadingUserPosts] = useState(false);
 
   const pagination = (db, currentPage, pageSize) => {
     const startIndex = (currentPage - 1) * pageSize;
@@ -154,6 +154,7 @@ const App = () => {
 
   return (
     <SafeAreaView>
+      <StatusBar barStyle={'dark-content'} />
       <View style={globalStyle.userPostContainer}>
         <FlatList
           ListHeaderComponent={
@@ -163,7 +164,7 @@ const App = () => {
                 <TouchableOpacity style={globalStyle.messageIcon}>
                   <FontAwesomeIcon
                     icon={faEnvelope}
-                    size={20}
+                    size={scaleFontSize(20)}
                     color={'#898DAE'}
                   />
                   <View style={globalStyle.messageNumberContainer}>
