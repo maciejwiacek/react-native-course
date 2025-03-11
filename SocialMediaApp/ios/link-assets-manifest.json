@@ -144,6 +144,10 @@
     {
       "path": "assets/fonts/InterDisplay-ThinItalic.ttf",
       "sha1": "bfd46c6409860769f103ff9499c119ac257b5154"
+    },
+    {
+      "path": "assets/fonts/helper.js",
+      "sha1": "46cde1eca25ba4770a41584a60877915a612b8b3"
     }
   ]
 }
