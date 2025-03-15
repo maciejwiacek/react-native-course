@@ -7,7 +7,11 @@ const Button = ({title, isDisabled = false, onPress = () => {}}) => {
   return (
     <Pressable
       disabled={isDisabled}
-      style={[style.button, isDisabled && style.disabled]}
+      style={({pressed}) => [
+        style.button,
+        isDisabled && style.disabled,
+        pressed && {opacity: 0.5},
+      ]}
       onPress={() => onPress()}>
       <Text style={style.title}>{title}</Text>
     </Pressable>

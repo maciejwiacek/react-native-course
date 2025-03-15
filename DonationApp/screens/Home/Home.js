@@ -18,6 +18,8 @@ import {updateSelectedCategoryId} from '../../redux/reducers/Categories';
 import SingleDonationItem from '../../components/SingleDonationItem/SingleDonationItem';
 import {updateSelectedDonationId} from '../../redux/reducers/Donations';
 import {Routes} from '../../navigation/Routes';
+import {resetToInitialState} from '../../redux/reducers/User';
+import {logOut} from '../../api/user';
 
 const Home = ({navigation}) => {
   const user = useSelector(state => state.user);
@@ -64,16 +66,24 @@ const Home = ({navigation}) => {
           <View>
             <Text style={style.headerIntroText}>Hello,</Text>
             <View style={style.userName}>
-              <Header
-                title={user.firstName + ' ' + user.lastName[0] + '. ' + '👋'}
-              />
+              <Header title={user.displayName + ' 👋'} numberOfLines={1} />
             </View>
           </View>
-          <Image
-            source={{uri: user.profileImage}}
-            style={style.profileImage}
-            resizeMode={'contain'}
-          />
+          <View>
+            <Image
+              source={{uri: user.profileImage}}
+              style={style.profileImage}
+              resizeMode={'contain'}
+            />
+            <Pressable
+              onPress={async () => {
+                dispatch(resetToInitialState());
+                await logOut();
+              }}
+              style={({pressed}) => pressed && {opacity: 0.5}}>
+              <Header type={3} title={'Log Out'} color={'#156CF7'} />
+            </Pressable>
+          </View>
         </View>
         <View style={style.searchBox}>
           <Search />
