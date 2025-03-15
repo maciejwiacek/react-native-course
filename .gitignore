@@ -73,3 +73,9 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Credentials
+# Ignorowanie Firebase config dla wszystkich projektów
+**/android/app/google-services.json
+**/ios/GoogleService-Info.plist
+
